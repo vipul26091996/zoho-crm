@@ -6,5 +6,6 @@ public class Test {
 	public void testingBranch()
 	{
 		//under testing branch
+		String testbranch = "";
 	}
 }
