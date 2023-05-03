@@ -61,8 +61,11 @@ public class ChangeTheme extends LoginTest{
 		System.out.println("verify theme : "+verify);
 		return verify;
 		
-		
 	}
 	
+	public void close()
+	{
+		//Testing purpose
+	}
 	
 }
