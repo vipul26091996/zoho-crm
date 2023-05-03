@@ -63,9 +63,5 @@ public class ChangeTheme extends LoginTest{
 		
 	}
 	
-	public void close()
-	{
-		//Testing purpose
-	}
-	
+
 }
