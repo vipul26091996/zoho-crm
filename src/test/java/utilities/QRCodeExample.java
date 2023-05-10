@@ -33,4 +33,9 @@ public class QRCodeExample {
             System.err.println("Error generating QR code: " + e.getMessage());
         }
     }
+    
+    public void sumofArray()
+    {
+    	int
+    }
 }

@@ -96,9 +96,11 @@ public class ControlFind {
 	@Test
 	public void array()
 	{
+		int no = 0;
+		int no1 = 0;
 		int[][][] arr = new int[2][3][4];
 		
-		arr[0][0][0] = 1;
+		arr[0][0][0] = 12;
 		arr[0][0][1] = 2;
 		arr[0][0][2] = 3;
 		arr[0][0][3] = 4;
@@ -135,10 +137,16 @@ public class ControlFind {
 				for(int k=0;k<arr[i][j].length;k++)
 				{
 					System.out.println(arr[i][j][k]);
+					if(arr[i][j][k]%2==0)
+					{
+						
+						 no1 = no + arr[i][j][k];
+						 no = no1;
+					}
 				}
 			}
 		}
-		
+		System.out.println("sum of even elements in an array is: "+no1);
 		HashMap<String,String> hm1 = new HashMap<String,String>();
 		hm1.put("qa", "http://www.qa.com/");
 		hm1.put("uat", "http://www.uat.com/");
