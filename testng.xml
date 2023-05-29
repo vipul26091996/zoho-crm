@@ -6,6 +6,7 @@
       <class name="testfile.LoginTestFile"/>
       <class name="testfile.CreateLeadTestFile"/>
       <class name="testfile.ChangeThemeTestFile"/>
+      <class name="testfile.CreateContactsTestFile"></class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- TestFileSuite -->

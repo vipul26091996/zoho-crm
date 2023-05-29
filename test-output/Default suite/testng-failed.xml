@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testfile.ChangeThemeTestFile">
+      <class name="testfile.CreateContactsTestFile">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="verifyChangeThemeFunctioanlity"/>
+          <include name="verifyCreateContactFunctionality"/>
         </methods>
-      </class> <!-- testfile.ChangeThemeTestFile -->
+      </class> <!-- testfile.CreateContactsTestFile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
