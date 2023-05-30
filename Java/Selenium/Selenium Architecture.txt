@@ -1,0 +1,15 @@
+=> Selenium Architecture
+
+https://www.softwaretestingmaterial.com/selenium-webdriver-architecture/
+
+====================================================================================================================
+
+=> Why WebDriver driver = new ChromeDriver();
+
+https://www.softwaretestingmaterial.com/webdriver-driver-new-firefoxdriver/
+
+====================================================================================================================
+
+
+
+====================================================================================================================
