@@ -1,19 +1,21 @@
 package programfile;
 
+import java.util.Scanner;
+
 public class Program67 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		patternB();
-		System.out.println("========================");
-		patternA();
-		System.out.println("========================");
-		patternX();
-		System.out.println("========================");
-		patternC();
-		System.out.println("========================");
-
+//		patternB();
+//		System.out.println("========================");
+//		patternA();
+//		System.out.println("========================");
+//		patternX();
+//		System.out.println("========================");
+//		patternC();
+//		System.out.println("========================");
+diamondPattern();
 	}
 
 	public static void patternB() {
@@ -76,6 +78,61 @@ public class Program67 {
 					System.out.print(" ");
 				}
 			}
+			System.out.println();
+		}
+	}
+	
+	public static void diamondPattern()
+	{
+		Scanner sc =new Scanner(System.in);
+		char[] alphabets = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',
+	            'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V',
+	            'W', 'X', 'Y', 'Z' };
+		System.out.println("Enter a character between A to Z:");
+		char c =sc.next().charAt(0);
+		int charVal=0;
+		System.out.println(c);
+		System.out.println(alphabets.length);
+		for(int i=1;i<alphabets.length;i++)
+		{
+			if(alphabets[i]==c)
+			{
+				charVal=i+1;
+				System.out.println(i);
+				break;
+			}
+		}
+		int space = charVal;
+		int space2 = charVal;
+		System.out.println(charVal);
+		for(int i=1;i<=charVal;i++)
+		{
+			for(int j=space-1;j>0;j--)
+			{
+				System.out.print(" ");
+			}
+			System.out.print(alphabets[i-1]);
+			for(int j=2;j<=2*i-1;j++)
+			{
+				System.out.print(" ");
+			}
+			System.out.print(alphabets[i-1]);
+			space--;
+			System.out.println();
+		}
+		for(int i=charVal;i<=1;i--)
+		{
+			space++;
+			for(int j=1;j<=space;j++)
+			{
+				System.out.print(" ");
+			}
+			System.out.print(alphabets[i-1]);
+			for(int j=7;j<=2*i-1;j++)
+			{
+				System.out.print(" ");
+			}
+			System.out.print(alphabets[i-1]);
 			System.out.println();
 		}
 	}
