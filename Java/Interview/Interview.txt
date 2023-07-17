@@ -1,0 +1,107 @@
+Manual
+1. While following Agile do we face any challenges? disadvantage/limitation of the agile process
+2. How do we ensure that we execute all the scenarios?
+3. Do we maintain any checklist for whether we covered all the test cases or not?
+4. Did you miss any bug and it moved to production?
+5. What is the necessary steps you take when you found defect on production?
+6. While performing the regression what are the things which we will consider? => what are the impacted areas, what are the bug fixes developer will done.
+7. Difference between Change Request(CR) and Feature Request(FR)? CR is bug fixes and FR is enchancement.
+
+Selenium
+8. Important feature in java which we used in automation.
+9. WebDriver driver = new Chromedriver(); Explain this statement?
+10. Wait Statement? Explicit wait condition?
+11. Uses of Desired Capabilities?
+12. What is DOM?
+13. What is the XPath? Diff b/w Relative and Absolute Xpath? Why we prefer Relative over Absolute? Adavantage or Disadvantage of Relative and Absolute?
+because if we add any new Element in the DOM then it affect the Absolute Xpath.
+14. JavaScript Executor?
+15. How to handle Multiple Windows? Diff b/w getWindowHandle and getWindowHandles?
+16. How to find how many option are there in the dropdown?
+17. How can we do Mouse operations?
+18. Diff b/w Actions and Action?
+19. DIff b/w Hard Assertion and Soft Assertion?
+
+TestNG
+1. What is Prioritization? there are 3 method and first having 0 priority, second have 1 priority and third having again 0 priority which one will execute first?
+2. How can you execute only failure test cases?
+3. What is Hybrid Framework?
+4. How frequently you run automation test cases?
+5. How many bugs your automation scripts found?
+6. How many test cases you have automated?
+7. How we report the bugs to the developer? on jira
+
+8. What are the benefits when we use Maven Project?
+9. Basic git commands?
+
+
+
+
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.10.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>5.4.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.8.0</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.xmlbeans/xmlbeans -->
+		<dependency>
+			<groupId>org.apache.xmlbeans</groupId>
+			<artifactId>xmlbeans</artifactId>
+			<version>5.1.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-collections4</artifactId>
+			<version>4.4</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml-schemas -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml-schemas</artifactId>
+			<version>4.1.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>5.2.3</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>5.2.3</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.uncommons/reportng -->
+		<dependency>
+			<groupId>org.uncommons</groupId>
+			<artifactId>reportng</artifactId>
+			<version>1.1.4</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.20.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.20.0</version>
+		</dependency>

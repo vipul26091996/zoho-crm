@@ -2,16 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-31T14:46:32 IST" name="Default suite" finished-at="2023-05-31T14:46:36 IST" duration-ms="4327">
+  <suite started-at="2023-07-10T15:35:34 IST" name="Default suite" finished-at="2023-07-10T15:36:23 IST" duration-ms="49162">
     <groups>
     </groups>
-    <test started-at="2023-05-31T14:46:32 IST" name="Default test" finished-at="2023-05-31T14:46:36 IST" duration-ms="4327">
-      <class name="programfile.Programs1">
-        <test-method signature="main()[pri:0, instance:programfile.Programs1@4f83df68]" started-at="2023-05-31T14:46:32 IST" name="main" finished-at="2023-05-31T14:46:36 IST" duration-ms="4289" status="PASS">
+    <test started-at="2023-07-10T15:35:34 IST" name="Default test" finished-at="2023-07-10T15:36:23 IST" duration-ms="49162">
+      <class name="testfile.ChangeThemeTestFile">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:testfile.ChangeThemeTestFile@2b71e916]" started-at="2023-07-10T15:35:28 IST" name="setup" finished-at="2023-07-10T15:35:34 IST" duration-ms="6213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@575c3e9b]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- main -->
-      </class> <!-- programfile.Programs1 -->
+        </test-method> <!-- setup -->
+        <test-method signature="verifyChangeThemeFunctioanlity()[pri:0, instance:testfile.ChangeThemeTestFile@2b71e916]" started-at="2023-07-10T15:35:34 IST" name="verifyChangeThemeFunctioanlity" finished-at="2023-07-10T15:36:23 IST" duration-ms="49128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChangeThemeFunctioanlity -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testfile.ChangeThemeTestFile@2b71e916]" started-at="2023-07-10T15:36:23 IST" name="tearDown" finished-at="2023-07-10T15:36:23 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testfile.ChangeThemeTestFile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
